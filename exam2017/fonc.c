@@ -8,7 +8,7 @@ int ajouteMot(mot tab[], int NB_MAX_MOT, mot *mot){
     int i = 0;
     int poqition_added_Element = 0;
     for(int i = 0; i < NB_MAX_MOT; i++){
-        if( *tab[i] == 0){
+        if( &tab[i] == 0){
             tab[i].posMot.abs = mot->posMot.abs;
             tab[i].posMot.ordo = mot->posMot.ordo ;
             tab[i].word.chaineMot = mot->word.chaineMot ;
