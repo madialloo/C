@@ -4,9 +4,12 @@
 #include "fonc_3.h"
 
 #define  MAX_SIZE    1000
+#define  MAX_SIZE_ONE    10000
+
 
 int main(int argc, char const *argv[]){
     /*** variables ***/
+    int i = 0;
     char buffer[MAX_SIZE];
     // number of characters---
     int nbChar = 0;
